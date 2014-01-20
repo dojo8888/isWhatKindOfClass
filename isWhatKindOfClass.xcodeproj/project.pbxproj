@@ -10,6 +10,7 @@
 		44348718188CFA46001DF8F4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 44348717188CFA46001DF8F4 /* Foundation.framework */; };
 		4434871B188CFA46001DF8F4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4434871A188CFA46001DF8F4 /* main.m */; };
 		4434871F188CFA46001DF8F4 /* isWhatKindOfClass.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = 4434871E188CFA46001DF8F4 /* isWhatKindOfClass.1 */; };
+		44348727188CFA61001DF8F4 /* NSObject+classKind.m in Sources */ = {isa = PBXBuildFile; fileRef = 44348726188CFA61001DF8F4 /* NSObject+classKind.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -31,6 +32,8 @@
 		4434871A188CFA46001DF8F4 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		4434871D188CFA46001DF8F4 /* isWhatKindOfClass-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "isWhatKindOfClass-Prefix.pch"; sourceTree = "<group>"; };
 		4434871E188CFA46001DF8F4 /* isWhatKindOfClass.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = isWhatKindOfClass.1; sourceTree = "<group>"; };
+		44348725188CFA61001DF8F4 /* NSObject+classKind.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+classKind.h"; sourceTree = "<group>"; };
+		44348726188CFA61001DF8F4 /* NSObject+classKind.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+classKind.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,6 +77,8 @@
 			isa = PBXGroup;
 			children = (
 				4434871A188CFA46001DF8F4 /* main.m */,
+				44348725188CFA61001DF8F4 /* NSObject+classKind.h */,
+				44348726188CFA61001DF8F4 /* NSObject+classKind.m */,
 				4434871E188CFA46001DF8F4 /* isWhatKindOfClass.1 */,
 				4434871C188CFA46001DF8F4 /* Supporting Files */,
 			);
@@ -139,6 +144,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				44348727188CFA61001DF8F4 /* NSObject+classKind.m in Sources */,
 				4434871B188CFA46001DF8F4 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -7,14 +7,16 @@
 //
 
 #import <Foundation/Foundation.h>
+#import "NSObject+classKind.h"
 
 int main(int argc, const char * argv[])
 {
 
     @autoreleasepool {
         
-        // insert code here...
-        NSLog(@"Hello, World!");
+        NSArray *marr = [[NSArray alloc]init];
+        
+        [marr isWhatKindOfClass];
         
     }
     return 0;
